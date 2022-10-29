@@ -17,7 +17,7 @@ console.log("============================");
 var p_age;  // when we not declare any value then we get undefine 
 console.log(typeof p_age);
 console.log("============================");  // the diff between null & undefine is = type of null is object & type of undefine is undefine 
-                                              //null mince simply nothing & undefine mince when variable is declare and not assign with value is call undefine         
+                                              //null mince simply nothing & undefine mince when variable is declare and not assign with value is call undefine          
 
 var city=null; //when we have null the type of null is object 
 console.log(typeof city);
