@@ -12,3 +12,4 @@ console.log(number1, number2);
 var green_vegetable= true;
 var fast_food=false;
 console.log(green_vegetable);
+
