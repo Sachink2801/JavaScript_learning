@@ -79,6 +79,9 @@ var str2=str.charAt(str.length-3);
 console.log("3rd last char in string is",str2);
 
 
+console.log("=========================================================");
+
+
 
 
 
