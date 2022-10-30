@@ -53,12 +53,11 @@ swap_value(1000,2000);
 console.log("===============================================================");
 
 function add_three_number(value1,value2,value3){
-    return(value1+value2+value3);
+    console.log(value1+value2+value3);
 
 }
-console.log("Addition of three no");
-var val=add_three_number(10.23,600,40);
-console.log(val);
+add_three_number(10.50,200,30);
+add_three_number("sachin","sanjay","kadam");
 
 console.log("===============================================================");
 
