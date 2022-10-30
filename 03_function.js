@@ -19,3 +19,17 @@ return "vegetable bag"
    }
 
  var details =my_self(23);
+
+ 
+ console.log("=========================================================")
+
+ function demo(arg1,arg2){
+  console.log(arg1+arg2);
+  return "sanjay"
+ }
+ var val=demo(20,20,30);
+ console.log(val);
+ demo("sachin","kadam");
+
+ 
+ console.log("=========================================================")
