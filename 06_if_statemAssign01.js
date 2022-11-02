@@ -40,3 +40,24 @@ checkNumber(50);
 checkNumber(45);
 checkNumber(13);
 checkNumber(10);
+
+console.log("====Check String start with JAVA====");
+var str="javaScriptLanguage";
+if(str.startsWith("java")){
+    console.log("string is start with JAVA");
+}
+console.log("===========");
+
+var strName = function(arg){
+    if(arg.startsWith("java")){
+        console.log("start with java ");
+    }else{
+        console.log("not start with java");
+    }
+
+}
+strName("javaDeveloper");
+strName("javaProgramme");
+strName("javaScript");
+strName("AngularDeveloper");
+
