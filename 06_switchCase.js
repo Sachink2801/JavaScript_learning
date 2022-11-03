@@ -1,4 +1,4 @@
-var dayNumber = 5;
+var dayNumber =5 ;
 switch (dayNumber) {
     case 1:
         console.log("Monday");
@@ -24,6 +24,6 @@ switch (dayNumber) {
 
 
     default:
-        console.log("Invalid output");
+        console.log("Invalid Input");
         break;
 }
