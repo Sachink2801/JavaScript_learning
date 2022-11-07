@@ -1,5 +1,5 @@
 'use strict'
- 
+
 let person = {
     fullName: "Mohit Aglawe",
     age: 31,
@@ -15,10 +15,10 @@ let person = {
 //  let state = person.state;
 //  let isMarried = person.isMarried;
 
- let { fullName, city, pin, state, isMarried }  = person;
- console.log(fullName, city, pin, state, isMarried);
+ let { fullName, city, pin, state="UP", isMarried,county="India" }  = person;
+ console.log(fullName, city, pin, state, isMarried,county);
 
- console.log("==== Array destructuring=====");
+
  let arrayOfNames = ["Monu", "Golu", "Chottu", "Ponu", "dholu"]
 //  let ele0 =  arrayOfNames[0];
 //  let ele1 =  arrayOfNames[1];
@@ -27,4 +27,4 @@ let person = {
 //  let ele4 =  arrayOfNames[4];
 //  let ele5 =  arrayOfNames[5];
  let [ele0, ele1, ele2, ele3, ele4 ] = arrayOfNames;
-console.log(arrayOfNames);
+ console.log(ele1,ele2,ele3,ele4);
