@@ -22,7 +22,7 @@ map_Person.set(66,emp_sonali);
 map_Person.set(77,emp_monika);
 map_Person.set(88,emp_viny);
 map_Person.set(99,emp_mahi);
-console.log("---------------traverse the map and log the employee details------------");
+console.warn("---------------traverse the map and log the employee details------------");
 map_Person.forEach((element)=>{
     console.log(`Employee ID :${element.emp_id}  Employee Name: ${element.emp_name} Employee Dept: ${element.emp_dept} Salary: ${element.emp_salary}  Company: ${element.emp_company}` );
 
